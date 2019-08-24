@@ -1,0 +1,72 @@
+.user-cabinet-header {
+    font-size: 20px;
+}
+
+.site-header{
+    border-bottom: 1px solid #26a69a;
+    padding: 40px 0;
+}
+.site-title{
+    font-size: 24px;
+    margin: 0;
+}
+
+.modal-progect{
+    position: relative;
+    padding: 20px;
+    /*height: 330px;*/
+    width: 220px;
+    border: 1px solid #26a69a;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #c0c0c0;
+    background: white;
+    align-self: auto; 
+}
+.btn1{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    cursor: pointer;
+}
+.modal-wrap1{
+    z-index: 9999;
+    position: fixed;
+    background: rgba(102, 102, 153, .4);
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.hide{
+    display: none;
+}
+.form-slider{
+    width: 700px;
+    height: 380px;
+    transition: all ease 1s;
+}
+
+.left-50{
+    min-height: 380px;
+    width: 50%;
+    float: left;
+}
+.right-50{
+    width: 50%;
+    max-height: 430px;
+    overflow-y: scroll; 
+}
+.read-rules, .read-rules-back{
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.sign-up-modal{
+    width: 370px;
+    overflow: hidden;
+}
+.form-slider-wrapper {
+    overflow: hidden;
+}
